@@ -16,7 +16,7 @@ The dataset is a single JSON file containing a list of objects, where each objec
 
 ### Schema
 
-```json
+```jsonc
 [
   {
     "volume": "1",
@@ -24,8 +24,8 @@ The dataset is a single JSON file containing a list of objects, where each objec
     "document_type": "LETTER",
     "document_date": "09-01-1906",
     "title": "LETTER TO THE EDITOR, THE VEGETARIAN",
-    "contents": "Main contents of the section. Footnote references in the contents are
-                 present as numbers in curly brackets as follows {1} {2}.",
+    "contents": """Main contents of the section. Footnote references in the contents are
+                   present as numbers in curly brackets as follows {1} {2}.""",
     "footnotes": {
       "1": "This is the footnote for reference {1}.",
       "2": "This is the footnote for reference {2}."
