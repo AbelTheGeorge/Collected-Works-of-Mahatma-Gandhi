@@ -1,6 +1,6 @@
 # The Collected Works of Mahatma Gandhi
 
-This repository contains a comprehensive JSON dataset of the "Collected Works of Mahatma Gandhi" (CWMG). . It has been extracted from The Collected Works of Mahatma Gandhi (CWMG) project, a meticulous documentation initiative by the Government of India that ran from September 1956 to October 2, 1994. 
+This repository contains a comprehensive JSON dataset of the "Collected Works of Mahatma Gandhi" (CWMG). It has been extracted from The Collected Works of Mahatma Gandhi (CWMG) project, a meticulous documentation initiative by the Government of India that ran from September 1956 to October 2, 1994. 
 The dataset encompasses 98 volumes, featuring nearly 50,000 pages of text and over 45,000 individual documents, including letters, speeches, articles, and interviews.
 
 ## Dataset Overview
@@ -24,7 +24,8 @@ The dataset is a single JSON file containing a list of objects, where each objec
     "document_type": "LETTER",
     "document_date": "09-01-1906",
     "title": "LETTER TO THE EDITOR, THE VEGETARIAN",
-    "contents": "Main contents of the section. Footnote references in the contents are present as numbers in curly brackets as follows {1} {2}.",
+    "contents": "Main contents of the section. Footnote references in the contents are
+                 present as numbers in curly brackets as follows {1} {2}.",
     "footnotes": {
       "1": "This is the footnote for reference {1}.",
       "2": "This is the footnote for reference {2}."
